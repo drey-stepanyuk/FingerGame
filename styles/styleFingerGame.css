@@ -1,0 +1,26 @@
+
+#content {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 5%;
+}
+
+#numberForm {
+  margin-top: 1rem;
+}
+
+/* code to do fadeIn and fadeOut effects */
+.visible
+{
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.hidden
+  {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
